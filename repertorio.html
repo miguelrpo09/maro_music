@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Repertorio — MARO Music</title>
+<meta name="description" content="Repertorio completo de MARO: salsa romántica, rock en español, baladas, tropical y música popular, con el artista original de cada canción.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav scrolled">
+  <div class="wrap">
+    <a href="index.html" class="nav-logo"><b class="gold-text">MARO</b>&nbsp;Music</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+      <li><a href="index.html#generos">Géneros</a></li>
+      <li><a href="index.html#eventos">Para tu evento</a></li>
+      <li><a href="repertorio.html">Repertorio</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="rep-hero wrap">
+  <span class="eyebrow">Repertorio</span>
+  <h1><span class="gold-text">Cada</span> canción, cada género</h1>
+  <p>Filtra por género o busca por título o artista original. Esta lista se actualiza constantemente — si buscas algo que no ves, pregúntame directamente.</p>
+</header>
+
+<div class="rep-controls">
+  <div class="wrap">
+    <div class="tabs" id="rep-tabs"></div>
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input id="rep-search" type="text" placeholder="Buscar canción o artista...">
+    </div>
+  </div>
+</div>
+
+<section class="rep-body wrap">
+  <div id="rep-body"></div>
+  <p class="no-results" id="no-results">No encontré canciones con esa búsqueda. Prueba con otro término o pregúntame directamente — seguro está en el repertorio en vivo.</p>
+
+  <!-- <div class="rep-note">
+    <b>Nota:</b> esta lista es de ejemplo para mostrar cómo se ve el repertorio organizado por género.
+    Edítala en el archivo <code>js/data.js</code>: cada canción es un objeto <code>{ title, artist }</code>
+    dentro de su género correspondiente. No requiere tocar el diseño ni el resto del código.
+  </div> -->
+</section>
+
+<footer>
+  <div class="wrap foot-wrap">
+    <span class="foot-logo"><span class="gold-text">MARO</span> Music</span>
+    <ul class="foot-links">
+      <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+      <li><a href="index.html#contacto">Contacto</a></li>
+    </ul>
+    <span class="foot-copy">© 2026 MARO Music. Todos los derechos reservados.</span>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
