@@ -134,7 +134,7 @@ if (repBody && typeof REPERTOIRE !== 'undefined') {
   searchInput.addEventListener('input', applyFilters);
 }
 
-const form = document.getElementById('form');
+const form = document.getElementById('booking-form');
 const submitBtn = form.querySelector('button[type="submit"]');
 
 form.addEventListener('submit', async (e) => {
